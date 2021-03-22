@@ -44,11 +44,21 @@ body {
     background-size: cover;
     background-position: center;
 }
+.nascosto{
+    display: none;
+}
 .fronte {
     background-color: white;
 }
 .carta:last-child {
     margin: 20px 0;
+}
+.retro:hover .nascosto {
+    display: block;
+}
+.carta:hover {
+    background-color: white;
+    background-image: unset;
 }
 
 .img {
@@ -57,13 +67,30 @@ body {
     margin: 10px auto;
     text-align:center;
 }
-.desc-carta {
+.desc {
     position: absolute;
     bottom: 10px;
     width: 100%;
     text-align: center;
     font-size: 30px;
+}
+.baloon {
     color: fuchsia;
+}
+.tram {
+    color: lime;
+}
+.tractor {
+    color: orange;
+}
+.cruise {
+    color: red;
+}
+.bicycle {
+    color: midnightblue;
+}
+.submarine {
+    color: cyan;
 }
 
 /* Footer */
