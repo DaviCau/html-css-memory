@@ -32,17 +32,38 @@ body {
 /* Main */
 .carta {
     float: left;
+    position: relative;
     width: 22%;
     height: 200px;
-    background-image: url('../img/pattern.png');
-    background-size: cover;
-    background-position: center;
     margin: 20px 4% 20px 0;
     border: solid 1px black;
     border-radius: 10px;
 }
+.retro {
+    background-image: url('../img/pattern.png');
+    background-size: cover;
+    background-position: center;
+}
+.fronte {
+    background-color: white;
+}
 .carta:last-child {
     margin: 20px 0;
+}
+
+.img {
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+    text-align:center;
+}
+.desc-carta {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: fuchsia;
 }
 
 /* Footer */
