@@ -17,7 +17,7 @@ body {
 }
 
 #container {
-    width: 60%;
+    width: 900px;
     margin: auto;
 }
 
@@ -34,14 +34,14 @@ body {
     float: left;
     position: relative;
     width: 22%;
-    height: 200px;
+    height: 250px;
     margin: 20px 4% 20px 0;
     border: solid 1px black;
     border-radius: 10px;
 }
 .retro {
     background-image: url('../img/pattern.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 .nascosto{
@@ -64,7 +64,7 @@ body {
 .img {
     height: 150px;
     display: block;
-    margin: 10px auto;
+    margin: 30px auto;
     text-align:center;
 }
 .desc {
